@@ -1,0 +1,414 @@
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
+
+
+     .about-us__wapper{
+
+        /* min-height:66rem; */
+    }
+
+
+}
+/* xxl */
+
+@media screen and (max-width: 1400px) {
+
+    .contact-us__location{
+
+        left: 32rem;
+    }
+
+}
+/* xl */
+
+@media screen and (max-width: 1200px) {
+ 
+
+    .home{
+
+        height: 62rem;
+
+    }
+    .home__name{
+
+        font-size: 2rem;
+    }
+
+    .home__job{
+
+        font-size: 3.5rem ;
+    }
+
+    .home__description{
+
+        font-size: 1.2rem;
+    }
+
+    .home__btn-right{
+
+        width: 15rem;
+
+    }
+
+    .home__btn-left{
+
+        width: 15rem;
+
+    }
+    .home__img{
+
+        width:35rem ;
+        height:35rem;
+    }
+    .about-us__content{
+
+        padding-top: 4rem;
+    }
+    .resume_skill-work-menu{
+
+        margin-right: 2.5rem;
+    }
+    .resume__skill-work-item--active::before{
+
+        width: 25rem;
+    
+    }
+    .portfolio-list__item{
+
+        padding: 1.3rem 2.8rem;
+    }
+
+    .contact-us__location{
+
+        left: 23rem;
+    }
+}
+
+
+/* lg */
+@media screen and (max-width: 992px) {
+
+
+    
+    
+
+    .logo{
+
+        font-size:3.75rem ;
+        padding: 1rem 0;
+    }
+
+    .menu__item--desktop{
+
+        margin-right: 2.5rem;
+    }
+
+
+    .home{
+
+        height: 58rem;
+
+    }
+
+    .home__img{
+
+        width:28rem;
+        height:28rem;
+        border-width: 1rem;
+    }
+    .section-head__title{
+
+        font-size: 3.4rem;
+    }
+
+    .section-head__sub-title{
+
+        font-size: 1.1rem;
+    }
+    .section-head__line{
+
+        width:18rem;
+    }
+
+    .section-head__line::after{
+
+        width:3.5rem;
+    }
+
+    .about-us__btns{
+
+        gap:1.2rem;
+    }
+
+
+    .services__cards{
+
+    }
+    .pricing-cards .col-sm-6{
+        width: 48%;
+    }
+    .pricing-cards{
+
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .pricing-card{
+        gap: 1rem;
+    }
+
+    .resume_skill-work-menu{
+
+        min-height: 40rem;
+    }
+
+
+    .contact-us__location{
+
+        display:none;
+    }
+
+    .contact{
+
+        margin-right: auto;
+    }
+
+    .footer__wrapper{
+
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .footer__copy-right-text{
+
+        font-size: 1.4rem;
+    }
+    .footer__wrapper-logo{
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* md */
+
+@media screen and (max-width: 768px) {
+
+    .menu__links--desktop{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .menu__links--mobile{
+
+        display: flex;
+
+    }
+    .cover--show{
+        position: fixed;
+        top:0;
+        right: 0;
+        width: 100%;
+        height:100%;
+        background: rgba(0, 0, 0, 0.1);
+        z-index: -1;
+    }
+    .home{
+
+        background: none!important;
+    }
+    .home__wrapper{
+
+        flex-direction: column-reverse;
+        margin-top: 10rem ;
+        text-align: center;
+    }
+    .home__name{
+        margin-bottom: 1.5rem;
+    }
+    .home__content{
+
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .home__btns{
+
+        margin-top: 2.5rem;
+    }
+    .home__img{
+        width: 30rem;
+        height:30rem;
+        margin: 0 auto 0 auto;
+    }
+    .home-wave{
+        margin-top: -12rem;
+    }
+    .about-us__wrapper{
+        flex-direction: column;
+        min-height: 102rem;
+    }
+
+    .about-us__btns{
+        justify-content: center;
+    }
+    .services__card{
+        padding: 1rem;
+    }
+    .resume_skill-work-menu::before,
+    .resume__skill-work-icon,
+    .resume__skill-work-item::before{
+        display: none;
+    }
+    .resume_skill-work-menu{
+        background-color: transparent;
+        box-shadow: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0 0 2.5rem 0;
+        height: auto;
+        min-height: 8rem;
+        gap: .3rem;
+    }
+    .resume__skill-work-item{
+        height: 5rem;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+    .resume__skill-work-item:last-child{
+        margin-bottom: 2rem;
+    }
+    .resume__skill-work-item--active{
+        background-color: var(--main-color);
+        border-radius:5rem;
+    }
+    .resume__content{
+        padding-right: 0;
+    }
+    .resume__skill-work-text{
+        padding-left: 0;
+        font-family: 'poppins-regular';
+    }
+}
+/* sm */
+@media screen and (max-width: 576px) {
+
+    .about-us__content{
+
+        padding: 3rem 2rem;
+    }
+    .services__cards{
+        margin-right: 0;
+    }
+    .services__card{
+        margin-right: 0;
+    }
+    .services__card{
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+    .pricing-cards .col-sm-6{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
+
+
+
+    .about-us__wapper{
+
+        /* min-height: 104rem; */
+    }
+
+}
+
+@media screen and (max-width: 466px) {
+
+    .about-us__wapper{
+
+        /*min-height: 103rem;*/
+
+    }
+
+
+    .resume__item-head-title::before{
+
+        display: none;
+    }
+    .resume__content{
+
+        border: none;
+        padding: 0 ;
+    }
+
+    .contact{
+
+        padding: 4rem 2.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 410px) {
+
+
+
+    .home__btns{
+
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .home__btns .btn{
+
+        width: 100%;
+    }
+
+    .section-head{
+
+        margin-top: 3rem;
+    }
+
+    .about-us__btns{
+
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .about-us__btns .btn{
+
+        width: 100%;
+    }
+    .services__card{
+
+        width: 100%;
+    }
+}
+@media screen and (max-width: 374px) {
+
+    .home__job {
+
+        font-size: 3rem;
+    }
+
+    .home__img {
+
+        width: 100%;
+    }
+
+    .about-us__wapper {
+
+        /*min-height: 110rem;*/
+
+    }
+}
+@media screen and (max-width: 359px) {
+
+
+
+}
