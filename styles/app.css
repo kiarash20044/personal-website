@@ -43,6 +43,9 @@
 
     fill :var(--text-color)!important;
 }
+:root.dark-theme .contact__input{
+    color:var(--text-color);
+}
 :root.dark-theme .footer__logo ,
 :root.dark-theme .change-theme-btn{
 
@@ -1190,6 +1193,7 @@ main{
     box-shadow: 0 0 5rem 0 rgba(96,233,255,.27);
     border-radius: 1rem;
     background: var(--app-bgcolor);
+
 }
 .contact__input--textarea{
 
